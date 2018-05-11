@@ -37,6 +37,8 @@ class Image extends React.Component {
 
   render() {
     return (
+
+
       <div
         className="image-root"
         style={{
@@ -46,6 +48,10 @@ class Image extends React.Component {
         }}
         >
         <div>
+          //I added this
+          <button
+            className="delete" onClick={props.onClick}>
+          </button>
           <FontAwesome className="image-icon" name="sync-alt" title="rotate"/>
           <FontAwesome className="image-icon" name="trash-alt" title="delete"/>
           <FontAwesome className="image-icon" name="expand" title="expand"/>
