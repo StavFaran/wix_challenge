@@ -1,10 +1,12 @@
 .gallery-root {
   text-align: center;
+  width:100vw ;
+  position: relative;
 }
 
 .gallery-header {
   background-color: #222;
-  padding: 10px;
+  padding: 0px;
   color: white;
   font-size: 20pt;
 }
